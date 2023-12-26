@@ -3,6 +3,7 @@
 
 module time_base
 #(parameter tc_mode = 99999999)
+//#(parameter tc_mode = 9)
 (
 	input wire clk,    		
 	input wire reset,  		

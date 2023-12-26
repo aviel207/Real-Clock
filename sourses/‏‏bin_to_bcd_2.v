@@ -10,122 +10,122 @@ module bin_to_bcd_2 (
 always @(bin)
 begin
     case(bin)
-        5'd00000: 
+        5'b00000: 
 		begin
 			left_digit  = 4'd0;
 			right_digit = 4'd0;
 		end
-		5'd00001: 
+		5'b00001: 
 		begin
 			left_digit  = 4'd0;
 			right_digit = 4'd1;
 		end
-		5'd00010: 
+		5'b00010: 
 		begin
 			left_digit  = 4'd0;
 			right_digit = 4'd2;
 		end
-		5'd00011: 
+		5'b00011: 
 		begin
 			left_digit  = 4'd0;
 			right_digit = 4'd3;
 		end
-		5'd00100: 
+		5'b00100: 
 		begin
 			left_digit  = 4'd0;
 			right_digit = 4'd4;
 		end
-		5'd00101: 
+		5'b00101: 
 		begin
 			left_digit  = 4'd0;
 			right_digit = 4'd5;
 		end
-		5'd00110: 
+		5'b00110: 
 		begin
 			left_digit  = 4'd0;
 			right_digit = 4'd6;
 		end
-		5'd00111: 
+		5'b00111: 
 		begin
 			left_digit  = 4'd0;
 			right_digit = 4'd7;
 		end
-		5'd01000: 
+		5'b01000: 
 		begin
 			left_digit  = 4'd0;
 			right_digit = 4'd8;
 		end
-		5'd01001: 
+		5'b01001: 
 		begin
 			left_digit  = 4'd0;
 			right_digit = 4'd9;
 		end
-		5'd01010: 
+		5'b01010: 
 		begin
 			left_digit  = 4'd1;
 			right_digit = 4'd0;
 		end
-		5'd01011: 
+		5'b01011: 
 		begin
 			left_digit  = 4'd1;
 			right_digit = 4'd1;
 		end
-		5'd01100: 
+		5'b01100: 
 		begin
 			left_digit  = 4'd1;
 			right_digit = 4'd2;
 		end
-		5'd01101: 
+		5'b01101: 
 		begin
 			left_digit  = 4'd1;
 			right_digit = 4'd3;
 		end
-		5'd01110: 
+		5'b01110: 
 		begin
 			left_digit  = 4'd1;
 			right_digit = 4'd4;
 		end
-		5'd01111: 
+		5'b01111: 
 		begin
 			left_digit  = 4'd1;
 			right_digit = 4'd5;
 		end
-		5'd10000: 
+		5'b10000: 
 		begin
 			left_digit  = 4'd1;
 			right_digit = 4'd6;
 		end
-		5'd10001: 
+		5'b10001: 
 		begin
 			left_digit  = 4'd1;
 			right_digit = 4'd7;
 		end
-		5'd10010: 
+		5'b10010: 
 		begin
 			left_digit  = 4'd1;
 			right_digit = 4'd8;
 		end
-		5'd10011: 
+		5'b10011: 
 		begin
 			left_digit  = 4'd1;
 			right_digit = 4'd9;
 		end
-		5'd10100: 
+		5'b10100: 
 		begin
 			left_digit  = 4'd2;
 			right_digit = 4'd0;
 		end
-		5'd10101: 
+		5'b10101: 
 		begin
 			left_digit  = 4'd2;
 			right_digit = 4'd1;
 		end
-		5'd10110: 
+		5'b10110: 
 		begin
 			left_digit  = 4'd2;
 			right_digit = 4'd2;
 		end
-		5'd10111: 
+		5'b10111: 
 		begin
 			left_digit  = 4'd2;
 			right_digit = 4'd3;
