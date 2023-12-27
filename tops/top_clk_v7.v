@@ -6,6 +6,9 @@ module top_clk_v7
 	input  wire 		clk,    		
 	input  wire 		reset,
 	input  wire 		mode,
+	input  wire		load,
+	input  wire [1:0]	addrs,
+	input  wire [5:0]	data_in,
 	output wire [3:0]	basys_anode,   
 	output wire [6:0]	display_ssd
 
@@ -43,6 +46,9 @@ module top_clk_v7
 		.clk(clk),
 		.reset(reset),
 		.tc_time_base(tc_time_base_wire),
+		.load(load),
+		.addrs(addrs),
+		.data_in(data_in),
 		.q_seconds(q_seconds_wire)
 	);
 
@@ -52,6 +58,9 @@ module top_clk_v7
 		.clk(clk),
 		.reset(reset),
 		.tc_time_base(tc_time_base_wire),
+		.load(load),
+		.addrs(addrs),
+		.data_in(data_in),
 		.q_seconds(q_seconds_wire),
 		.q_minutes(q_minutes_wire)
 	);
@@ -62,6 +71,9 @@ module top_clk_v7
 		.clk(clk),
 		.reset(reset),
 		.tc_time_base(tc_time_base_wire),
+		.load(load),
+		.addrs(addrs),
+		.data_in(data_in),
 		.q_seconds(q_seconds_wire),
 		.q_minutes(q_minutes_wire),
 		.q_hours(q_hours_wire)
