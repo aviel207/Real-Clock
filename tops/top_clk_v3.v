@@ -22,6 +22,9 @@ module top_clk_v3
 	(
 		.clk(clk),
 		.reset(reset),
+		.load(load),
+		.addrs(addrs),
+		.data_in(data_in),
 		.tc_time_base(tc_time_base_wire)
 	);
 	
